@@ -1,0 +1,15 @@
+[ {
+  "id" : 1,
+  "name" : "Vio",
+  "surname" : "Zac",
+  "patronymic" : "F",
+  "phoneNumber" : "123",
+  "address" : "Thalow"
+}, {
+  "id" : 2,
+  "name" : "Vlada",
+  "surname" : "Zac",
+  "patronymic" : "r",
+  "phoneNumber" : "345",
+  "address" : "Thalow"
+} ]
