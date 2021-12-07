@@ -2,35 +2,28 @@
   "id" : 1,
   "name" : "Винни Пух",
   "genre" : "Приключенческий",
-  "releaseYear" : "12.10.2009",
+  "releaseYear" : "2009",
   "producer" : "Хитрук",
   "ready" : true
 }, {
   "id" : 2,
   "name" : "Семь жизней",
   "genre" : "Драма",
-  "releaseYear" : "10.12.2010",
+  "releaseYear" : "2010",
   "producer" : "Мучинно",
   "ready" : true
 }, {
   "id" : 3,
   "name" : "Ветренная река",
   "genre" : "Детектив",
-  "releaseYear" : "15.09.2017",
+  "releaseYear" : "2017",
   "producer" : "Шердиан",
-  "ready" : false
+  "ready" : true
 }, {
   "id" : 4,
   "name" : "Человек-паук",
   "genre" : "Фантастика",
-  "releaseYear" : "12.12.2000",
+  "releaseYear" : "2000",
   "producer" : "хз",
-  "ready" : true
-}, {
-  "id" : 5,
-  "name" : "e",
-  "genre" : "e",
-  "releaseYear" : "e",
-  "producer" : "e",
   "ready" : true
 } ]

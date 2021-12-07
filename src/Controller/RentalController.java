@@ -57,7 +57,7 @@ public class RentalController extends SerializableDateSaver {
     }
 
 
-    public void returnedDisk(Disc disc) {
+    public void returnDisk(Disc disc) {
        rentals = getRentalData();
         var rentalIsThere = rentals.stream().filter(u -> u.getDiscId() == disc.getId()).filter(u -> u.isWhetherReturned() == false).findFirst();
         if (rentalIsThere.isPresent()) {
