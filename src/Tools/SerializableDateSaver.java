@@ -1,4 +1,4 @@
-package com.company;
+package Tools;
 
 import Model.Disc;
 import Model.Rental;

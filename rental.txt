@@ -6,4 +6,12 @@
   "dateOfIssue" : "2021-12-06",
   "expectedReturnDate" : "2022-01-06",
   "whetherReturned" : true
+}, {
+  "id" : 2,
+  "personPhoneNumber" : "123",
+  "discId" : 3,
+  "userId" : 1,
+  "dateOfIssue" : "2021-12-07",
+  "expectedReturnDate" : "2022-01-07",
+  "whetherReturned" : false
 } ]

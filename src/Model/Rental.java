@@ -1,7 +1,8 @@
 
 package Model;
 
-import com.company.ArgumentNullException;
+import Tools.ArgumentNullException;
+import Tools.LocalDateDeserializer;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

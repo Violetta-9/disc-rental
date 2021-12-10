@@ -1,6 +1,6 @@
 package Model;
 
-import com.company.ArgumentNullException;
+import Tools.ArgumentNullException;
 
 import java.io.Serializable;
 

@@ -1,10 +1,6 @@
 package com.company;
 
-import Controller.DiscController;
-import Controller.RentalController;
-import Controller.UserController;
-
-import java.util.Scanner;
+import Tools.Input;
 
 public class Main {
 

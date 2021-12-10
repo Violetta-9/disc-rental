@@ -1,4 +1,4 @@
-package com.company;
+package Tools;
 
 public class ArgumentNullException extends Exception {
 
