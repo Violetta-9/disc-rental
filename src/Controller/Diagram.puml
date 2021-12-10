@@ -1,0 +1,74 @@
+@startuml
+  class Disc{
+
+    - int id;
+    - String name;
+    - String genre;
+    - String releaseYear;
+    - String producer;
+    - boolean isReady;
+    }
+     Disc <-- DiscController
+    class DiscController{
+    - ArrayList<Disc> discs
+    - Disc currentDisc
+    - boolean isNewDisc
+    + void setNewDiscData()
+    + void setDisc()
+    + void deleteDisc()
+    + void save()
+    + ArrayList<Disc> getDiscData()
+    + Disc search()
+
+    }
+    class User{
+    - int id
+    - String name
+    - String surname
+    - String patronymic
+    - String phoneNumber
+    - String address
+    }
+    class UserController{
+         - ArrayList<User> users
+         - User currentUser
+         - boolean isNewUser
+         + void setUser()
+         + void save()
+         + ArrayList<User> getUsersData()
+         + void setNewUserData()
+         + void deleteUser()
+         + void editUser()
+         + User search()
+
+        }
+    User <-- UserController
+    class Rental{
+     - int id;
+     - String personPhoneNumber;
+     - int discId;
+     - int userId;
+    }
+
+     class RentalController{
+     - List<Rental> rentals;
+     - Rental currentRental;
+      + void returnDisk()
+      + void setRental() {
+      + void save() {
+      + ArrayList<Rental> getRentalData()
+     }
+      Rental <-- RentalController
+
+      class SerializableDateSaver{
+      -  {static} String PERSON_FILE;
+      -  {static}  static String DISC_FILE;
+      -  {static}  static String RENTAL_FILE;
+      }
+      SerializableDateSaver <|-- UserController
+      SerializableDateSaver <|-- DiscController
+      SerializableDateSaver <|-- RentalController
+ class LocalDateDeserializer{
+}
+
+@enduml
