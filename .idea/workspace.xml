@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d844175-7324-421e-9869-4a62404aafef" name="Changes" comment="" />
+    <list default="true" id="8d844175-7324-421e-9869-4a62404aafef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/Tools/ArgumentNullException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/Tools/Input.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/Tools/LocalDateDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/untitled104/Tools/SerializableDateSaver.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639170800748</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Diagram">
+      <created>1639171027706</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639171027706</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Diagram">
+      <created>1639171312891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639171312891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
