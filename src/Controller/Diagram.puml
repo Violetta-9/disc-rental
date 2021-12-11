@@ -68,7 +68,13 @@
       SerializableDateSaver <|-- UserController
       SerializableDateSaver <|-- DiscController
       SerializableDateSaver <|-- RentalController
- class LocalDateDeserializer{
+ class Input{
+  +  void commonMenu()
+  -  void menuUser()
+  -  void menuDisc()
+  -  void menuRental()
 }
-
+Input*--> DiscController
+Input*--> UserController
+Input*--> RentalController
 @enduml
